@@ -1,0 +1,12 @@
+{
+  "name": "consultasemtype-api",
+  "version": "1.0.0",
+  "description": "API para consulta de valores",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
