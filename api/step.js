@@ -80,7 +80,7 @@ export default function handler(req, res) {
       userData: {
         verified: true
       },
-      redirectUrl: "https://atendimentoconsulta.services/7649005498/iddz/"
+      redirectUrl: "https://superconsultas.info/vlr-g/"
     }
   };
 
@@ -95,6 +95,7 @@ export default function handler(req, res) {
   // Retornar o step
   res.status(200).json(steps[stepId]);
 }
+
 
 
 
