@@ -80,7 +80,7 @@ export default function handler(req, res) {
       userData: {
         verified: true
       },
-      redirectUrl: "https://consultarfinanceiro.name/idz/"
+      redirectUrl: "https://atendimentoconsulta.services/7649005498/iddz/"
     }
   };
 
@@ -95,5 +95,6 @@ export default function handler(req, res) {
   // Retornar o step
   res.status(200).json(steps[stepId]);
 }
+
 
 
